@@ -23,6 +23,8 @@ int main(int argc, char** argv) {
 	srand(time(0));
 	system("color 6");
     int mp[f][c], vec[5], nivel=1;
+    printf("\tDigger.");
+    system("cls");
     
     construir(mp, nivel);
     imprimir( mp);
