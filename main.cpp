@@ -23,7 +23,8 @@ int main(int argc, char** argv) {
 	srand(time(0));
 	system("color 6");
     int mp[f][c], vec[5], nivel=1;
-    printf("\tDigger.");
+    printf("\tDigger.\n sin movimiento de enemigos, nivel facil\ version 1.1");
+    system("pause>null");
     system("cls");
     
     construir(mp, nivel);
