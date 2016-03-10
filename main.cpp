@@ -24,8 +24,6 @@ int main(int argc, char** argv) {
 	system("color 6");
     int mp[f][c], vec[5], nivel=1;
     printf("\tDigger.");
-    printf("\tv 1.1");
-    system("pause");
     system("cls");
     
     construir(mp, nivel);
